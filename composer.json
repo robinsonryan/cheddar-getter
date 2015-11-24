@@ -1,0 +1,27 @@
+{
+    "name":         "cheddar-getter/client",
+    "type":         "library",
+    "description":  "The official PHP client for the CheddarGetter API",
+    "keywords":     ["CheddarGetter"],
+    "homepage":     "https://cheddargetter.com/developers",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":  "Marc Guyer",
+            "email": "marc@cheddargetter.com"
+        }
+    ],
+    "support": {
+      "issues": "https://github.com/marcguyer/cheddargetter-client-php/issues",
+      "forum": "http://support.cheddargetter.com/",
+      "email": "team@cheddargetter.com"
+    },
+    "suggest": {
+        "ext-curl": "*",
+        "zendframework/zendframework1": "*",
+        "zendframework/zend-http": "*"
+    },
+    "autoload": {
+        "psr-4": { "CheddarGetter\\": "src/" }
+    }
+}
